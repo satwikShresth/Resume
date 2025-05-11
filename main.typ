@@ -19,7 +19,6 @@
 #let font= "Times New Roman"
 #let paper= "us-letter"
 
-
 #show: resume.with(
   author: name,
   location: location,
@@ -102,7 +101,7 @@
 )
 - *Open-source* platform for Drexel students to search job listings, courses, and professor ratings in one place
 - Scraped and transformed *50K+ webpages* of raw data into a structured schema optimized for cross-reference features
-- Implemented *millisecond-latency* search using *MeiliSearch* with zero user data storage for privacy and performance
+- Implemented *millisecond-latency* search using *Meilisearch* with zero user data storage for privacy and performance
 - Achieved early product validation with *100+ weekly active users* and *220+ wage submissions* without marketing
 
 #project(
@@ -124,11 +123,11 @@
   dates:  [*Stack*: Docker, Node.js, Knex.js, Postgres, JavaScript, EJS]
 )
 - Led a team of *4* to design, implement and self-host a full-scale books and media tracking website using just JavaScript
-- Built custom authentication with *JWTs*, secure password hashing, and anti-bot measures to ensure platform security
+- Built custom authentication with *JsonWebToken*, secure password hashing, and anti-bot measures to ensure platform security
 - Integrated multiple APIs, normalizing data to support social features like sharing, following, review and ratings
 - Developed *LRU caching* that reduced API-dependent page load times by *65%* and improved overall site responsiveness
 
 == Skills
 - *Programming Languages*: C, C++, Go, Haskell, Java, JavaScript, Python, SQL, TypeScript
-- *Frameworks*: Express, React.js, Redux, Next.js, TanStack, FastAPI, Svelte, SQLAlchemy, NumPy, Redux, Tanstack Query, Zod
-- *Tools*: Docker, Kubernetes, Git, CI/CD (GitLab, Jenkins), Elasticsearch, Kafka, Redis, Postgres, Nginx, Vim, S3, Playwright
+- *Frameworks*: Express, React.js, Redux, Next.js, TanStack, FastAPI, Svelte, SQLAlchemy, NumPy, Redux, TanStack Query, Zod
+- *Tools*: Docker, Kubernetes, Git, CI/CD (GitLab, Jenkins), Elasticsearch, Kafka, Redis, Postgres, Nginx, Vim, S3, Playwright, Typst
